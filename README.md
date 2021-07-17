@@ -11,7 +11,7 @@ There are many assemblers like Microsoft Assembler (MASM) The GNU assembler (GAS
 
 An assembly program can be divided into three sections −
 
-The text section. The data section, The bss section, and
+The text section. The data section, The bss section :
 
 The text section is used for keeping the actual code. This section must begin with the declaration global _start, which tells the kernel where the program execution begins, and global keyword followed by _start is essential for the linker, later when we will run our program.
 
